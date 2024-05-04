@@ -1,0 +1,19 @@
+{
+	"name": "奶茶",
+	"id": "MilkTea",
+	"description": "好喝！",
+	"license": "CC0",
+	"url": "https://github.com/OML/OML",
+	"issue": "https://github.com/OML/OML/issuse",
+	"sources": "https://github.com/OML/OML",
+	"icon": "$MODDIR/icon.ico",
+	"authors": [ "SharpIce" ],
+	"version": "1.0.0",
+	"dependence": {
+		"OML": ">=1.0.0"
+	},
+	"entrypoint": {
+		"dll": "MilkTea.dll",
+		"namespace": "MilkTea.Main"
+	}
+}

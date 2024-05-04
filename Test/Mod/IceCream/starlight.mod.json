@@ -1,0 +1,20 @@
+{
+	"name": "冰淇淋",
+	"id": "IceCream",
+	"description": "好吃！",
+	"license": "CC0",
+	"url": "https://github.com/OML/OML",
+	"issue": "https://github.com/OML/OML/issuse",
+	"sources": "https://github.com/OML/OML",
+	"icon": "$MODDIR/icon.ico",
+	"authors": [ "SharpIce" ],
+	"version": "1.0.0",
+	"dependence": {
+		"OML": ">=1.0.0",
+		"MilkTea": ">=1.0.0"
+	},
+	"entrypoint": {
+		"dll": "IceCream.dll",
+		"namespace": "IceCream.Main"
+	}
+}
